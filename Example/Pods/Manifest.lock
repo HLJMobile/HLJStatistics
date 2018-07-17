@@ -1,0 +1,19 @@
+PODS:
+  - HLJStatistics (0.1.0)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - HLJStatistics (from `../`)
+  - Masonry
+
+EXTERNAL SOURCES:
+  HLJStatistics:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HLJStatistics: 59d3069e72c36dc14650a97c496753f16ebb1e96
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: 31ae440aa826672be15a2aea23e32094d6411904
+
+COCOAPODS: 1.4.0

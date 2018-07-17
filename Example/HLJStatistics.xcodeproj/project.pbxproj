@@ -23,6 +23,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		A4C6DE6020FE0D2700D69613 /* HLJTest1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C6DE5D20FE0D2700D69613 /* HLJTest1ViewController.m */; };
+		A4C6DE6120FE0D2700D69613 /* HLJTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C6DE5F20FE0D2700D69613 /* HLJTestViewController.m */; };
 		B79127270B31494EE0779669 /* Pods_HLJStatistics_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ADACB8D9258687F09991D21 /* Pods_HLJStatistics_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,13 +61,17 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		62ABDD81B9905D7ED3F824E8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		62ABDD81B9905D7ED3F824E8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		670BDEEE5AF267C37CE4C4F1 /* Pods-HLJStatistics_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLJStatistics_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HLJStatistics_Tests/Pods-HLJStatistics_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4C6DE5C20FE0D2700D69613 /* HLJTest1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLJTest1ViewController.h; sourceTree = "<group>"; };
+		A4C6DE5D20FE0D2700D69613 /* HLJTest1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLJTest1ViewController.m; sourceTree = "<group>"; };
+		A4C6DE5E20FE0D2700D69613 /* HLJTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLJTestViewController.h; sourceTree = "<group>"; };
+		A4C6DE5F20FE0D2700D69613 /* HLJTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLJTestViewController.m; sourceTree = "<group>"; };
 		C5EDC7A4F5CCBBB72B3679AE /* Pods-HLJStatistics_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLJStatistics_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HLJStatistics_Example/Pods-HLJStatistics_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		CA3B84FDAB302EC3D0821EF9 /* HLJStatistics.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HLJStatistics.podspec; path = ../HLJStatistics.podspec; sourceTree = "<group>"; };
-		DBA40C4D7B445E5B439D4D30 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CA3B84FDAB302EC3D0821EF9 /* HLJStatistics.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HLJStatistics.podspec; path = ../HLJStatistics.podspec; sourceTree = "<group>"; };
+		DBA40C4D7B445E5B439D4D30 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DC1C8A0911E6AC11F943C773 /* Pods-HLJStatistics_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLJStatistics_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HLJStatistics_Tests/Pods-HLJStatistics_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,6 +138,10 @@
 		6003F593195388D20070C39A /* Example for HLJStatistics */ = {
 			isa = PBXGroup;
 			children = (
+				A4C6DE5C20FE0D2700D69613 /* HLJTest1ViewController.h */,
+				A4C6DE5D20FE0D2700D69613 /* HLJTest1ViewController.m */,
+				A4C6DE5E20FE0D2700D69613 /* HLJTestViewController.h */,
+				A4C6DE5F20FE0D2700D69613 /* HLJTestViewController.m */,
 				6003F59C195388D20070C39A /* HLJAppDelegate.h */,
 				6003F59D195388D20070C39A /* HLJAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -353,10 +363,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-HLJStatistics_Example/Pods-HLJStatistics_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/HLJStatistics/HLJStatistics.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HLJStatistics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -404,7 +416,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* HLJAppDelegate.m in Sources */,
+				A4C6DE6020FE0D2700D69613 /* HLJTest1ViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* HLJViewController.m in Sources */,
+				A4C6DE6120FE0D2700D69613 /* HLJTestViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

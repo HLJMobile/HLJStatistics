@@ -1,0 +1,22 @@
+{
+  "name": "HLJStatistics",
+  "version": "0.1.0",
+  "summary": "A short description of HLJStatistics.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/shupian/HLJStatistics",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "shupian": "shu_pian@hunliji.com"
+  },
+  "source": {
+    "git": "https://github.com/shupian/HLJStatistics.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HLJStatistics/Classes/**/*"
+}

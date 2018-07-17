@@ -1,9 +1,9 @@
 //
 //  HLJViewController.m
-//  HLJStatistics
+//  HLJStatistical
 //
-//  Created by shupian on 07/17/2018.
-//  Copyright (c) 2018 shupian. All rights reserved.
+//  Created by 吴晓辉 on 07/07/2018.
+//  Copyright (c) 2018 吴晓辉. All rights reserved.
 //
 
 #import "HLJViewController.h"

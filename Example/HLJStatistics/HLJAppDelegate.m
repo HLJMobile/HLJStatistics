@@ -1,17 +1,24 @@
 //
 //  HLJAppDelegate.m
-//  HLJStatistics
+//  HLJStatistical
 //
-//  Created by shupian on 07/17/2018.
-//  Copyright (c) 2018 shupian. All rights reserved.
+//  Created by 吴晓辉 on 07/07/2018.
+//  Copyright (c) 2018 吴晓辉. All rights reserved.
 //
 
 #import "HLJAppDelegate.h"
+#import "HLJTest1ViewController.h"
 
 @implementation HLJAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    UINavigationController *viewController = [[UINavigationController alloc] initWithRootViewController:[[HLJTest1ViewController alloc] init]];
+    self.window.rootViewController = viewController;
+    [self.window makeKeyAndVisible];
+    
     // Override point for customization after application launch.
     return YES;
 }
